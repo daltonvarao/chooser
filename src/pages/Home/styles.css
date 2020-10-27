@@ -1,0 +1,152 @@
+.roulette-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.roulette-box {
+  width: 100%;
+  display: flex;
+}
+
+.roulette {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-right: 0.75rem;
+  border: 1px solid #bbb4;
+  background-color: #fff;
+}
+
+.roulette h2 {
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+}
+
+.options-type {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.form-group {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #bbb4;
+  border-radius: 0.25rem;
+}
+
+.form-group input {
+  margin: 0;
+  width: auto;
+  padding: 0;
+  margin-right: 0.5rem;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.button {
+  padding: 1rem;
+  font-weight: 900;
+  font-size: 16px;
+  background-color: red;
+  border-radius: 0.25rem;
+  border: 0;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.words {
+  width: 100%;
+  display: flex;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.word {
+  padding: 0.75rem;
+  background-color: #fff;
+  border: 1px solid #bbb4;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  font-weight: 600;
+  color: #666;
+}
+
+.close {
+  margin-left: 0.75rem;
+  font-size: 18px;
+  background-color: #eeeee0;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  color: #666;
+  font-weight: 900;
+}
+
+.remove-all {
+  margin-top: 0.75rem;
+  width: 100%;
+  text-align: right;
+}
+
+.remove-all button {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #666;
+  font-size: 12px;
+}
+
+input {
+  margin-top: 0.75rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: #f0f0fd;
+  border: 1px solid #bbb4;
+  border-radius: 0.25rem;
+  outline: none;
+  font-weight: 700;
+  color: #333;
+}
+
+form {
+  width: 100%;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.input-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.75rem;
+}
+
+#logo {
+  margin-bottom: 1.5rem;
+}
